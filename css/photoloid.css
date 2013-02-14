@@ -1,0 +1,58 @@
+body{
+background: -moz-radial-gradient(center center, contain, black, #B40404 95% );
+margin:0;
+padding:0;
+overflow-x:hidden;
+overflow-y:hidden;
+}
+
+#header{
+color:rgba(0,0,0,0.9);
+width:100%;
+padding:5% 65% 0 65%;
+font-size:65px;
+letter-spacing:-8px;
+}
+
+#photo-album{
+background: yellow;
+display:none;
+}
+
+img{
+width:450px;
+}
+
+#photos2{
+transform:rotate(-5deg);
+}
+
+#photos3{
+transform:rotate(-10deg);
+}
+
+#photos4{
+transform:rotate(7deg);
+}
+
+#photos1,#photos2,#photos3, #photos4{
+position:absolute;
+background:white;
+padding:0.8%;
+box-shadow:0 0 15px grey, inset 0 1px black;
+transition:0.5s;
+}
+
+#footer{
+margin-top:13%;
+height:40%;
+width:100%;
+border-bottom:1px solid white;
+}
+
+#credits{
+padding: 21% 0%;
+text-align:center;
+color:white;
+font-size:17px;
+}
